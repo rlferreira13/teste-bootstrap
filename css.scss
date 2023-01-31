@@ -1,0 +1,16 @@
+$bgcolor: mix(lightgray, white, 20%);
+
+@mixin padding {
+    padding:10px;
+}
+@mixin margin {
+    margin:50px;
+}
+
+body{
+    background-color: $bgcolor;
+    font-family: "Ubuntu";
+    @include margin()
+}
+
+
